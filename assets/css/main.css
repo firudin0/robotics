@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: transparent;
+}
+header .navbar {
+  width: 85%;
+  height: auto;
+  margin: auto;
+}
+
+.collapseDiv {
+  justify-content: flex-end;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+#ImprovedProduction {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-image: url(/assets/img/banner-bg.jpg);
+  align-items: center;
+}
+#ImprovedProduction .container .row .seconetxt {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  color: white;
+}
+#ImprovedProduction .container .row .seconetxt .servicesbtn {
+  width: 150px;
+  height: 60px;
+  border: none;
+}
+
+#FeaturedRobotics {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#FeaturedRobotics .container .sectwotxt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#FeaturedRobotics .robots .container .row {
+  width: 100%;
+}
+#FeaturedRobotics .robots .container .row .col-3 .sectworbts {
+  background-color: rgb(246, 246, 246);
+  text-align: center;
+}
+#FeaturedRobotics .robots .container .row .col-3 .sectworbts h1 {
+  font-size: 20px;
+}
+#FeaturedRobotics .robots .container .row .col-3 .sectworbts p {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+#FeaturedRobotics .robots .container .row .col-3 .sectworbts .servicesbtn {
+  width: 150px;
+  height: 60px;
+  border: none;
+}
